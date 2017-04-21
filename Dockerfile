@@ -18,4 +18,5 @@ RUN set -x \
     && apt-get install -y docker-ce gcc libssl-dev \
     && rm -rf /var/lib/apt/lists/* \
     && pip install --no-cache-dir ansible \
-    && pip install --no-cache-dir molecule
+    && pip install --no-cache-dir molecule \
+    && pip install --no-cache-dir docker
