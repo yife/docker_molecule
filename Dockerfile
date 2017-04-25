@@ -19,5 +19,4 @@ RUN set -x \
     && rm -rf /var/lib/apt/lists/* \
     && pip install --no-cache-dir ansible \
     && pip install --no-cache-dir molecule \
-    && pip install --no-cache-dir docker \
-    && touch /var/lib/rpm/*
+    && pip install --no-cache-dir docker
